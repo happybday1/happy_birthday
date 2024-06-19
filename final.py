@@ -34,4 +34,3 @@ def final():
     )
 
     st.pydeck_chart(map)
-final()
