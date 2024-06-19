@@ -48,7 +48,7 @@ def test_page():
             answer = st.radio(f"Обирай:", options, key=f"answer_{index}")
             answers.append(answer)
 
-        submitted = st.form_submit_button("Submit")
+        submitted = st.form_submit_button("Submit (тикати два раза)")
     if 'final_button' not in st.session_state:
         st.session_state.final_button = False
 
